@@ -56,8 +56,7 @@ st.divider()
 # 4. Radionuclide Therapies Section
 st.subheader("Nuclear Medicine")
 
-st.markdown("### 💊 I-131 Thyroid Calculator")
-st.write("Calculator for radioiodine therapies.")
+st.markdown("### 💊 I-131 Thyroid Therapy Calculator")
 st.link_button("Launch Thyroid Therapy App", "https://thyroid-therapy.streamlit.app")
 
 st.write("---")
