@@ -1,0 +1,28 @@
+<svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer ring -->
+  <circle cx="110" cy="110" r="100" fill="none" stroke="#00E0FF" stroke-width="4"/>
+
+  <!-- Inner glow ring -->
+  <circle cx="110" cy="110" r="78" fill="none" stroke="#00AACC" stroke-width="3" stroke-dasharray="6 6"/>
+
+  <!-- AA monogram -->
+  <text x="110" y="118" font-size="58" font-weight="700" fill="#FFFFFF" text-anchor="middle" font-family="Arial">
+    AA
+  </text>
+
+  <!-- Orbiting dot -->
+  <circle cx="170" cy="110" r="8" fill="#FFCC33"/>
+
+  <!-- Curved text -->
+  <text font-size="14" fill="#B8C0CC" font-family="Arial">
+    <textPath href="#curve" startOffset="50%" text-anchor="middle">
+      Nuclear Medicine • Radiology • Clinical Tools
+    </textPath>
+  </text>
+
+  <!-- Path for curved text -->
+  <defs>
+    <path id="curve" d="M 30 110 A 80 80 0 1 1 190 110" />
+  </defs>
+</svg>
+

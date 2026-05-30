@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <defs>
+        <path id="blade" d="M 0,-10 L -16,-38 A 42,42 0 0,1 16,-38 Z" fill="#FFD166" />
+    </defs>
+
+    <rect width="100" height="100" rx="20" fill="#0B132B"/>
+
+    <g transform="translate(50, 50)">
+        
+        <use href="#blade" transform="rotate(180)" />
+        <use href="#blade" transform="rotate(60)" />
+        <use href="#blade" transform="rotate(300)" />
+        
+        <circle cx="0" cy="0" r="7.5" fill="#FFD166" />
+        
+        <rect x="-2" y="-25" width="4" height="50" rx="2" fill="#F8F9FA"/>
+        
+        <path d="M -9, 15 C 12, 8 15, -2 0, -8 C -15, -14 -12, -23 3, -25" 
+              fill="none" stroke="#F8F9FA" stroke-width="3" stroke-linecap="round"/>
+              
+        <circle cx="3" cy="-25" r="2.5" fill="#F8F9FA"/>
+        
+        <circle cx="2" cy="-25.5" r="0.75" fill="#0B132B"/>
+    </g>
+</svg>
