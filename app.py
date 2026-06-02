@@ -59,6 +59,11 @@ st.subheader("Nuclear Medicine")
 st.markdown("### 💊 I-131 Thyroid Therapy Calculator")
 st.link_button("Launch Thyroid Therapy App", "https://thyroid-therapy.streamlit.app")
 
+st.markdown("### Decay Correction Tool")
+st.link_button("Launch Decay Correction App", "https://decay-correction.streamlit.app")
+
+
+
 st.write("---")
 
 # 5. Future Additions
